@@ -6,7 +6,7 @@ pygame.init()
 SCREEN_SIZE = (800, 600)
 screen = pygame.display.set_mode(SCREEN_SIZE, 0, 32)
 
-tank = pygame.image.load('tanque.jpg').convert()
+tank = pygame.image.load('tanque.png').convert()
 
 x, y = 100, 100  # Posição inicial do tanque
 move_x, move_y = 0, 0  # Movimento em X e Y
